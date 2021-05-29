@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQuality-Starter/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQuality-Starter/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQuality-Starter/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQuality-Starter/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQualityCoroutines-Starter/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQualityCoroutines-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQualityCoroutines-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepTrackerViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQualityCoroutines-Starter/app/src/main/res/layout/fragment_sleep_tracker.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/CountryListApplication.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
