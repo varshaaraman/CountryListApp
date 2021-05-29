@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CountryListApp</string>
+    <string name="search_hint">Type the first 4 letters of the country here...</string>
+    <string name="cntry_dtl_error">An error has occurred ! Please try again later</string>
+    <string name="cntry_dtl_capital">Capital</string>
+    <string name="cntry_dtl_rgn">Region</string>
+    <string name="cntry_dtl_sb_region">Sub region</string>
+    <string name="cntry_dtl_pltn">Population</string>
+    <string name="btn_wthr_txt">View Weather Details</string>
+    <string name="wthr_temp_unit">℃</string>
+    <string name="wthr_aqi_title">Air Quality Index</string>
+    <string name="wthr_co_title">Carbon Monoxide</string>
+    <string name="wthr_ozone_title">Ozone</string>
+    <string name="wthr_aq_title">Air Quality</string>
 </resources>

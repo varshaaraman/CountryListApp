@@ -1,0 +1,41 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/masterCountryFragment">
+
+    <fragment
+        android:id="@+id/masterCountryFragment"
+        android:name="com.zohointerview.countrylist.ui.master.MasterFragment"
+        android:label="fragment_country_master">
+        <action
+            android:id="@+id/action_showCountryDetail"
+            app:destination="@id/detailCountryFragment"
+            app:enterAnim="@anim/anim_slide_right"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailCountryFragment"
+        android:name="com.zohointerview.countrylist.ui.detail.DetailFragment"
+        android:label="fragment_country_detail">
+        <action
+            android:id="@+id/action_showWeather"
+            app:destination="@id/weatherFragment"
+            app:enterAnim="@anim/anim_slide_right"
+            />
+        <argument
+            android:name="selectedCountry"
+            app:argType="com.zohointerview.countrylist.domain.Country" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.zohointerview.countrylist.ui.weather.WeatherFragment"
+        android:label="fragment_weather">
+        <argument
+            android:name="selectedWeather"
+            app:argType="com.zohointerview.countrylist.domain.WeatherDomain" />
+    </fragment>
+
+</navigation>
