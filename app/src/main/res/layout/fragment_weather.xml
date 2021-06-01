@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activity_bg"
+        android:fillViewport="true"
+        tools:context=".WeatherFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_wthr_ic"
+                android:layout_width="@dimen/height_maxi"
+                android:layout_height="@dimen/height_maxi"
+                android:layout_margin="@dimen/dim_medium"
+                android:layout_marginBottom="@dimen/dim_medium"
+                android:layout_marginTop="@dimen/dim_medium"
+                android:adjustViewBounds="false"
+                android:padding="@dimen/dim_medium"
+                app:imageUrl="@{weatherViewModel.displayedWeatherDomain.weatherIcon}"
+                app:layout_constraintBottom_toTopOf="@+id/tv_wthr_cndtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_wthr_tmp_txt"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tv_wthr_tmp_txt"
+                style="@style/weather.H2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{weatherViewModel.displayedWeatherDomain.temperature}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_wthr_cty_txt"
+                tools:text="88" />
+
+            <TextView
+                android:id="@+id/tv_wthr_cndtn"
+                style="@style/weather.body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_medium"
+                android:text="@{weatherViewModel.displayedWeatherDomain.weatherDescription}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_wthr_ic"
+                tools:text="Scattered clouds" />
+
+            <TextView
+                android:id="@+id/tv_wthr_desc"
+                style="@style/weather.body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{weatherViewModel.displayedWeatherDomain.weatherMain}"
+                android:textColor="@color/txt_white"
+                tools:text="Clouds"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_wthr_cndtn"
+                />
+
+            <TextView
+                android:id="@+id/tv_aq_title"
+                style="@style/Title.H1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_large"
+                android:layout_marginStart="@dimen/dim_large"
+                android:text="@string/wthr_aq_title"
+                android:textColor="@color/design_default_color_primary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_wthr_desc"
+                tools:text="Air Quality" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cv_aq_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dim_small"
+                android:layout_marginTop="@dimen/dim_xlarge"
+                android:layout_marginStart="@dimen/dim_large"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/crd_crnr_radius"
+                app:cardElevation="@dimen/dim_large"
+                app:cardUseCompatPadding="false"
+                app:layout_constraintTop_toBottomOf="@+id/tv_aq_title">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dim_medium">
+
+                    <FrameLayout
+                        android:id="@+id/fl_aqi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_small"
+                        android:layout_marginTop="@dimen/dim_small"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/barrier"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ProgressBar
+                            android:id="@+id/pv_aqi"
+                            style="@style/ProgressBarStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:indeterminate="false"
+                            android:max="5"
+                            android:min="1"
+                            android:progress="@{weatherViewModel.displayedWeatherDomain.airQuality.aqi}"
+                            android:textAlignment="center"
+                            tools:progress="3" />
+
+                        <TextView
+                            style="@style/Title.H1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="@{Integer.toString(weatherViewModel.displayedWeatherDomain.airQuality.aqi)}"
+                            android:textColor="@color/white"
+                            tools:text="3"
+                            android:textSize="14sp" />
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_aqi_title"
+                        style="@style/weather.body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_small"
+                        android:text="@string/wthr_aqi_title"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_co_title"
+                        style="@style/weather.body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_small"
+                        android:text="@string/wthr_co_title"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_aqi_title" />
+
+                    <TextView
+                        android:id="@+id/tv_ozone_title"
+                        style="@style/weather.body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dim_small"
+                        android:text="@string/wthr_ozone_title"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_co_title" />
+
+                    <androidx.constraintlayout.widget.Barrier
+                        android:id="@+id/barrier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:barrierDirection="right"
+                        app:constraint_referenced_ids="tv_aqi_title,tv_co_title,tv_ozone_title" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tv_ozone"
+                        android:layout_width="0dp"
+                        style="@style/weather.body"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_small"
+                        android:layout_marginTop="@dimen/dim_small"
+                        android:text="@{Double.toString(weatherViewModel.displayedWeatherDomain.airQuality.ozone)}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/barrier"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_co_title"
+                        tools:text="9.0" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/tv_co"
+                        android:layout_width="0dp"
+                        style="@style/weather.body"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dim_small"
+                        android:layout_marginTop="@dimen/dim_small"
+                        android:text="@{Double.toString(weatherViewModel.displayedWeatherDomain.airQuality.carbonMonoxide)}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/barrier"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_aqi_title"
+                        tools:text="9.0" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_wthr_tmp_suffix"
+                style="@style/weather.H2.superscript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim_medium"
+                android:text="@string/wthr_temp_unit"
+                app:layout_constraintStart_toEndOf="@id/tv_wthr_tmp_txt"
+                app:layout_constraintTop_toBottomOf="@+id/tv_wthr_cty_txt" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tv_wthr_cty_txt"
+                style="@style/weather.H1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dim_xlarge"
+                android:gravity="center"
+                android:text="@{weatherViewModel.displayedWeatherDomain.cityName}"
+                android:textAllCaps="true"
+                android:textColor="@color/txt_white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="London" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <data>
+        <variable
+            name="weatherViewModel"
+            type="com.zohointerview.countrylist.ui.weather.WeatherFragmentViewModel" />
+    </data>
+</layout>

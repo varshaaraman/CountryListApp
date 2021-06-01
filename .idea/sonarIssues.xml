@@ -3,6 +3,21 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/AboutMeDataBinding-Starter/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/build.gradle">
           <value>
             <set />
@@ -29,6 +44,16 @@
           </value>
         </entry>
         <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/GuessTheWord-Starter/app/src/main/res/anim/slide_out_left.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/MarsRealEstate-Starter/app/src/main/res/drawable/loading_animation.xml">
           <value>
             <set />
           </value>
@@ -73,7 +98,32 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Workspace/android-kotlin-fundamentals-starter-apps-master/android-kotlin-fundamentals-starter-apps-master/TrackMySleepQualityStates-Starter/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/sonarIssues.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/zohointerview/countrylist/network/SysJsonAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/zohointerview/countrylist/database/CountryDatabase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/zohointerview/countrylist/database/CountryDatabaseDao.java">
           <value>
             <set />
           </value>
@@ -88,7 +138,272 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/build.gradle">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/SplashActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/core/utils/Constants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/core/utils/NullToEmptyDelegate.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/core/utils/TrimAndConvertCaseDelegate.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/core/workmanagers/FetchCountryWorkManager.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/core/workmanagers/FetchCountryWorker.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/AirQualityDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/Country.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/CountryDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/CountryDatabaseDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/CountryEntity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/DatabaseCountry.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/database/WeatherEntity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/domain/CapitalWeather.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/domain/CountryResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/domain/Weather.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/network/AirQualityResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/network/RetrofitProvider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/network/WeatherResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/repository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/repository/CountriesRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/repository/CountryRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/detail/DetailFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/detail/DetailFragmentViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/detail/DetailFragmentViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/detail/adapter/FlagAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/master/MasterFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/master/MasterFragmentViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/master/adapter/FlagAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/weather/WeatherFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/weather/WeatherFragmentViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/weather/WeatherFragmentViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/zohointerview/countrylist/ui/weather/WeatherFragmentViewModelFatory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_left.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/anim/anim_slide_right.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_progress_horizontal.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/bg_wthr_progress.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/loading_animated.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_country_detail.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_country_master.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/xml/action_splash_screen.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-kotlin-fundamentals-apps/GDGFinderFinal/app/src/main/java/com/example/android/gdgfinder/add/AddGdgFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-kotlin-fundamentals-apps/MarsRealEstateFinal/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-kotlin-fundamentals-apps/MarsRealEstateFinal/app/src/main/java/com/example/android/marsrealestate/network/MarsApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-kotlin-fundamentals-apps/MarsRealEstateFinal/app/src/main/java/com/example/android/marsrealestate/overview/PhotoGridAdapter.kt">
           <value>
             <set />
           </value>
